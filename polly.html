@@ -47,8 +47,8 @@
     <script type="text/javascript">
 
         // Initialize the Amazon Cognito credentials provider
-        AWS.config.region = 'REGION'; 
-        AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'IDENTITY_POOL_ID'});
+        AWS.config.region = 'eu-west-1'; 
+        AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'Cognito_testUnauth_Role'});
         
         // Function invoked by button click
         function speakText() {
